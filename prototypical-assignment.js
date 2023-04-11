@@ -7,7 +7,7 @@ class Person {
     this.favoriteColor = favoriteColor;
     this.favoriteNumber = favoriteNumber;
     this.favoriteFoods = favoriteFoods;
-    this.family = [""]
+    this.family = []
     }
 
 }
@@ -39,10 +39,9 @@ Person.prototype.addToFamily = function (person) {
 console.log (nowen.toString())
 console.log (lee.lastName)
 console.log (avis.fullName());
-console.log(avis.addToFamily());
-console.log(paisli.addToFamily());
-console.log(lee.addToFamily());
-console.log(nowen.addToFamily());
 console.log(avis.favoriteColor);
 console.log(avis.toString());
 console.log(nowen.toString());
+console.log(lee.addToFamily(nowen));
+console.log(lee.addToFamily(paisli));
+console.log(lee.addToFamily(avis));
