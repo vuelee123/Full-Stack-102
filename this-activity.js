@@ -2,10 +2,10 @@
 
 let photoSlideShow = {
     photoList: ['dog', 'cow', 'donkey', 'horse', 'chicken', 'duck'],
-    currentPhotoIndex: 0,
+    currentPhotoIndex: 1,
 
     nextPhoto: function () {
-        if(this.currentPhotoIndex < this.photoList.length) {
+        if(this.currentPhotoIndex < this.photoList.length -1) {
             this.currentPhotoIndex ++;
             console.log(this.photoList[this.currentPhotoIndex]);
         } else {
@@ -26,7 +26,10 @@ let photoSlideShow = {
         return this.photoList[this.currentPhotoIndex];
     }
 }
+console.log(photoSlideShow.getCurrentPhoto());
+photoSlideShow.nextPhoto();
+photoSlideShow.prePhoto();
+photoSlideShow.prePhoto();
+photoSlideShow.prePhoto();
+photoSlideShow.prePhoto();
 
-console.log (photoSlideShow.nextPhoto ()); 
-console.log (photoSlideShow.prePhoto ()); 
-console.log (photoSlideShow.getCurrentPhoto ()); 
