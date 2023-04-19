@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+    font-family:'Courier New', Courier, monospace;
+    color: palevioletred;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 2px;
+    background-color: lightpink;
+    color: whitesmoke;
+}
