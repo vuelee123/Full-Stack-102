@@ -1,0 +1,13 @@
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btns {
+    border-radius: 5px;
+    height: 50px;
+    color: lightblue;
+}
