@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,19 +9,21 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <div class="container">
     <h1>REST Activity</h1>
 <!--Create buttosnt that do each of the tasks below-->
 <div class="btns">
     <button onclick="getAllPosts()">Get all posts</button><br>
     <button onclick="getPostId10()">Get post with id of 10 </button><br>
     <button onclick="createNewPost()">Create a new post and log the id generated</button><br>
-    <button onclick="replacePostId12()">Repleace the post with id of 12</button><br>
+    <button onclick="replacePostId12()">Replace the post with id of 12</button><br>
     <button onclick="updatePost()">Update the title of post with id of 12</button><br>
     <button onclick="deletePost()">Delete the post with id of 12</button>
 </div>
 
 <!--Render the results to the page-->
 <div id="results"></div>
+    </div>
     <script src="rest-activity.js"></script>
 </body>
 </html>
