@@ -6,6 +6,7 @@
 //delete the node_modules : npm uninstall
 //install again : npm install -> both these action removed the unnecessary folders
 //updated the package.json by adding 'start' to the script.
+//created a .gitignore file to ignore node_modules
 
 
 // Require or import the 'moment' modules in your application.
